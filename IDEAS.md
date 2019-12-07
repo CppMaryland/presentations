@@ -5,10 +5,11 @@ For past presentations, see [the past presentations page](README.md)
 
 ## Back-to-basics
 
-* memory model (Samy Al Bahra, Paul Khuong "Abusing Your Memory Model for Fun and Profit")
+* Memory Model (Samy Al Bahra, Paul Khuong "Abusing Your Memory Model for Fun and Profit")
 * unique/shared/weak_ptr
 * copy/move semantics
 * Rule of 3/5/0
+* type traits
 
 
 ## Software Engineering
@@ -30,6 +31,9 @@ For past presentations, see [the past presentations page](README.md)
 
 ### Design Patterns
 (maybe 10 minutes per month)
+
+### Other
+* Type-detection idiom
 
 
 ### Concurrency

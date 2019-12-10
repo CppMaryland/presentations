@@ -46,4 +46,4 @@ For past presentations, see [the past presentations page](README.md)
 * Executors
 
 ## C++23 proposals:
-* Linear Algebra [[2019-12](2019-12-04_Bob_Steagall_-_Linear_Algebra_proposal_for_C++23.pdf)]
+* Linear Algebra [[2019-12](2019-12-04_Bob_Steagall_-_Linear_Algebra_for_C++.pdf)]

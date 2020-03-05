@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>CppMaryland 2020-03-05</title>
+
+		<meta name="description" content="CppMaryland Meetup">
+		<meta name="author" content="CppMaryland">
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+		<style>
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
+	text-transform: none;
+}
+.reveal section img { background:none; border:none; box-shadow:none; }
+#items { font-size: normal; }
+#smaller { font-size: smaller; }
+		</style>
+		
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- Start of the slides -->
+
+				<section id="sponsor">
+					<img src="images/cppmaryland_logo_terrible_oneline.svg" alt="CppMaryland terrible logo" width=70% border="20" /><br />
+					<code>2020-03-05</code><br /><br />
+					Thanks to our primary sponsor <b>GliaCell Technologies</b><br />
+					<img src="images/gliacell-logo-lowres.png" alt="GliaCell logo" />
+				</section>
+
+				<section id="schedule">
+					<h2>Schedule</h2>
+					<ul>
+						<li>19:00-19:20 - <b>Introductions</b></li>
+						<li>19:20-20:10 - <b>Presentation about CMake</b></li>
+						<li>20:10-20:20 - <b>Questions, and a short break</b></li>
+						<li>20:20-20:50 - <b>Recap of the Prague WG21 meeting</b></li>
+						<li>20:50-21:00 - <b>Wrap-up</b></li>
+					</ul>
+				</section>
+
+				<!-- End of the slides -->
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: false,
+				center: true,
+				hash: true,
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' }
+				]
+			});
+		</script>
+	</body>
+</html>
+
